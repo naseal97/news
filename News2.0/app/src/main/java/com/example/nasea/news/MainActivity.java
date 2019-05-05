@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     public static final String REQUEST_DESC = "request.desc";
     public static final String REQUEST_IMAGE = "request.image";
     public static final String REQUEST_PUBDATE = "request.pubdate";
-
+//this is comment test git
     private FragmentNews fmNews = new FragmentNews();
     private FragmentFavorite fmFavorite = new FragmentFavorite();
     private FragmentSave fmSave = new FragmentSave();
