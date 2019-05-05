@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_save"
+        android:layout_margin="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:id="@+id/pb_download"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:max="100"
+        android:min="0"
+        android:background="@android:color/background_light"
+        android:indeterminate="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
